@@ -36,7 +36,11 @@ public class BoletoMapper {
     }
 
     public ConsultaBoletoResponse toConsultaBoletoResponse(Boleto boleto) {
-        return new ConsultaBoletoResponse();
+
+        ConsultaBoletoResponse response = new ConsultaBoletoResponse();
+
+
+        return response;
     }
 
     public ConsultaBoletosResponse toConsultaBoletosResponse(List<Boleto> boleto) {
